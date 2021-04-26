@@ -4,7 +4,7 @@ import prawcore
 reddit = praw.Reddit(
     client_id="<client-id>",
     client_secret="<client-secret>",
-    user_agent="python:subtester:0.1 (by /u/ACEDT)",
+    user_agent="python:subtester:0.2 (by /u/ACEDT)",
 )
 
 def subExists(sub):
