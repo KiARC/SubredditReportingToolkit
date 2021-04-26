@@ -4,7 +4,7 @@ import prawcore
 reddit = praw.Reddit(
     client_id="<client-id>",
     client_secret="<client-secret>",
-    user_agent="python:subtester:0.1 (by /u/ACEDT)",
+    user_agent="python:subtester:0.2 (by /u/ACEDT)",
 )
 
 def searchSubs(searchString):
@@ -13,7 +13,7 @@ def searchSubs(searchString):
         subList.append(sub.display_name)
     return subList
 def runner():
-    subList = searchSubs("<search-string>")
+    subList = searchSubs(<search-string>)
     for sub in subList:
         print(sub)
 runner()
