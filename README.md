@@ -18,7 +18,7 @@ reddit = praw.Reddit(
 
 ### Basic step-by-step:
 - Find subreddits with `SubFinder`
-- Check them manually, it will not necesarilly only find things you want to report! (For example, the search term "homophobic" will still register r/LGBT because there are posts/content there including that word.)
+- Check them manually, it will not necessarily only find things you want to report! (For example, the search term "homophobic" will still register r/LGBT because there are posts/content there including that word.)
 - Add them to a file `sublist.txt`
 - Run `SubredditTester` to confirm their statuses. You can keep banned subs there to keep track of them!
 - Run `reportSubs` to send the report message.
