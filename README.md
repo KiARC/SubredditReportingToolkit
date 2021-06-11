@@ -1,5 +1,5 @@
 # SubredditReportingToolkit
-A set of python scripts to find and report subreddits. See README.md
+A set of python scripts to find and report subreddits.
 
 # How to use the toolkit:
 ### Setup:
