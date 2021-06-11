@@ -12,7 +12,11 @@ reddit = praw.Reddit(
     user_agent="python:subtester:0.1 (by /u/ACEDT)",
 )
  ```
- - Add your Reddit username and password to `reportSubs`
+ - Add your Reddit username and password to `reportSubs` in the part that looks like this:
+    ```python
+    password="<your-password>",
+    username="<your-username>",
+    ```
  - Follow the instructions to use it!
 
 
