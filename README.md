@@ -4,7 +4,7 @@ A set of python scripts to find and report subreddits.
 # How to use the toolkit:
 ### Setup:
 - Use [this guide](https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example#python-example) to set up a "script" on your profile
-- Fill in this section of the script with your information:
+- Fill in this section of the script with your information by replacing <client-id> and <client-secret> with your id and secret.
 ```python 
 reddit = praw.Reddit(
     client_id="<client-id>",
